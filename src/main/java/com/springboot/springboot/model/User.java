@@ -26,6 +26,7 @@ public class User {
     @Pattern(regexp = "^[a-zA-Zа-яА-Я]+$", message = "Фамилия не должна содержать цифры, пробелы, спецсимволы")
     private String lastName;
 
+
     @Column(name = "email")
     @Email
     private String email;
